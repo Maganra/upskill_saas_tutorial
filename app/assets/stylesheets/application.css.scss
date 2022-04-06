@@ -16,7 +16,7 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-@import 'font-awesome-sprockets';
+//@import 'font-awesome-sprockets';
 @import 'font-awesome';
 
 /* Typography Styles */
@@ -30,11 +30,11 @@ h1, h2, h3 {
     //background: #7F7FD5;  /* fallback for old browsers */
     //background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
     //background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+
     //background: #004FF9;  /* fallback for old browsers */
     //background: -webkit-linear-gradient(to right, #004FF9, #FFF94C);  /* Chrome 10-25, Safari 5.1-6 */
     //background: linear-gradient(to right, #004FF9, #FFF94C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+
     background: #FC5C7D;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -59,7 +59,7 @@ h1, h2, h3 {
     font-weight: 800;
 }
 
-.navbar-default .navbar-brand, 
+.navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
     color: white;
     &:hover {
@@ -68,7 +68,7 @@ h1, h2, h3 {
     }
 }
 
-/* .navbar-default .navbar-brand:hover, 
+/* .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-nav > li > a:hover {
     color: white;
     opacity: 0.75;
@@ -97,5 +97,5 @@ h1, h2, h3 {
 
 /* Contact Us messages */
 .container {
-    text-align: center; 
+    text-align: center;
 }
