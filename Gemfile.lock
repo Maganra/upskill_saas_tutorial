@@ -66,8 +66,8 @@ GEM
     execjs (2.8.1)
     ffi (1.15.5)
     ffi (1.15.5-x64-mingw32)
-    font-awesome-sass (6.1.1)
-      sassc (~> 2.0)
+    font-awesome-sass (4.6.2)
+      sass (>= 3.2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     hirb (0.7.3)
@@ -98,6 +98,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.13.3-x64-mingw32)
       racc (~> 1.4)
+    pg (0.18.4)
     pg (0.18.4-x64-mingw32)
     puma (3.12.6)
     racc (1.6.0)
@@ -131,6 +132,11 @@ GEM
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    sass (3.7.4)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
@@ -183,7 +189,7 @@ DEPENDENCIES
   bootstrap-sass
   byebug
   coffee-rails
-  font-awesome-sass
+  font-awesome-sass (= 4.6.2)
   hirb
   jbuilder
   jquery-rails
