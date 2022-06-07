@@ -107,7 +107,11 @@ GEM
     mime-types (3.4.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2022.0105)
+<<<<<<< HEAD
     mimemagic (0.3.10)
+=======
+    mimemagic (0.4.3)
+>>>>>>> d84847acf33bf7343c5030876bf4890fcf85e1d5
       nokogiri (~> 1)
       rake
     mini_mime (1.1.2)
@@ -121,12 +125,20 @@ GEM
     nokogiri (1.13.4-x64-mingw32)
       racc (~> 1.4)
     orm_adapter (0.5.0)
+<<<<<<< HEAD
     paperclip (6.1.0)
       activemodel (>= 4.2.0)
       activesupport (>= 4.2.0)
       mime-types
       mimemagic (~> 0.3.0)
       terrapin (~> 0.6.0)
+=======
+    paperclip (4.2.4)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      cocaine (~> 0.5.5)
+      mime-types
+>>>>>>> d84847acf33bf7343c5030876bf4890fcf85e1d5
     pg (0.18.4)
     pg (0.18.4-x64-mingw32)
     puma (3.12.6)
@@ -249,6 +261,10 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   listen
+<<<<<<< HEAD
+=======
+  mimemagic (= 0.4.3)
+>>>>>>> d84847acf33bf7343c5030876bf4890fcf85e1d5
   paperclip
   pg (= 0.18.4)
   puma
