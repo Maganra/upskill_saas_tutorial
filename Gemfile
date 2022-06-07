@@ -46,6 +46,9 @@ gem 'stripe', '1.48.0'
 # Use Figaro for ENV variables
 gem 'figaro'
 
+# Use Paperclip for image upload
+gem 'paperclip'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   #gem 'sqlite3', '1.3.13'
@@ -71,4 +74,4 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #ruby '2.3.0'
-ruby '2.6.9'
+ruby '2.7.6'

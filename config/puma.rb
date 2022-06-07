@@ -9,7 +9,17 @@ threads threads_count, threads_count
 
 # Specifies the `port` that Puma will listen on to receive requests, default is 3000.
 #
-port        ENV.fetch("PORT") { 3000 }
+
+if ENV.fetch("RAILS_ENV") == 'development'
+  port        ENV.fetch("PORT") { 3001 }
+  ssl_bind '127.0.0.1', '3000', {
+    key: 'localhost.key',
+    cert: 'localhost.crt',
+    verify_mode: 'none'
+  }
+else
+  port        ENV.fetch("PORT") { 3000 }
+end
 
 # Specifies the `environment` that Puma will run in.
 #
