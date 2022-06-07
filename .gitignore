@@ -22,3 +22,7 @@
 
 # Ignore application configuration
 /config/application.yml
+
+# Ignore SSL keys
+localhost.crt
+localhost.key
